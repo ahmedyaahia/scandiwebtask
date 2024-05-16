@@ -1,6 +1,6 @@
 import axios from "axios";
 
-const baseURL = 'https://scandiweb-testtask.000webhostapp.com/backend/graphql.php'; //  base URL
+const baseURL = 'https://citadelcairo.com/backend/graphql.php'; //  base URL
 
 // Define functions for making GraphQL requests
 export const fetchCategories = async () => {
