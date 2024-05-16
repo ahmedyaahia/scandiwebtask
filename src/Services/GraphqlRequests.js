@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const baseURL = 'https://citadelcairo.com/backend/graphql.php'; //  base URL
-axios.defaults.withCredentials = false;
+axios.defaults.withCredentials = true;
 
 // Define functions for making GraphQL requests
 export const fetchCategories = async () => {
